@@ -1,0 +1,91 @@
+.white-border {
+    border: none;
+}
+
+/* Cor principal */
+.bg-custom {
+    background-color: rgb(126, 144, 158); /* Hex: #7e909e */
+}
+
+/* Cor principal - versão mais clara */
+.bg-custom-soft {
+    background-color: #DDE1E4;
+}
+
+/* Cor navbar burger de mobile */
+.bg-custom-phone {
+    background-color: #aeb0b3;
+}
+
+/* Cor fundo mais clara */
+.bg-custom-body {
+    background-color: #f4f4f4;
+}
+
+.btn-custom {
+   background: rgb(103, 112, 119);
+   border: none;
+}
+
+.white-footer {
+    color: white;
+}
+
+.bar-phone {
+    display: none;
+}
+
+.custom-hover a:hover {
+    color: black;
+}
+
+/* .card e .table são para a seção de ver produtos */
+.card {
+    margin-bottom: 30px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+.table-product td{
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+
+/* Restringir tamanho máximo de imagem de produto */
+.view-image {
+    max-width: 430px;
+    max-height: 600px;
+}
+
+/* Versão Desktop */
+@media (min-width: 992px) {
+    .white-border {
+        border: white solid 1px;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .bar-phone {
+        display:flex;
+    }
+  }
+
+
